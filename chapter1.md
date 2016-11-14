@@ -17,4 +17,22 @@
 |Cassandra存储策略|CassandraStorage||
 |Elasticsearch存储策略|ElasticsearchStorage||
 
+参考链接：https://github.com/openzipkin/zipkin/tree/master/zipkin-storage
+
+4.zipkin使用mysql存储策略
+
+创建数据库
+
+`> mysql -uroot -e "SET GLOBAL innodb_file_format=Barracuda"`
+
+`> mysql -uroot -e "show global variables like 'innodb_file_format'"`
+
+`> mysql -uroot -e "create database if not exists zipkin"`
+
+`> mysql -uroot -Dzipkin < zipkin-storage/mysql/src/main/resources/mysql.sql`
+
+参考链接：
+https://github.com/openzipkin/zipkin/tree/master/zipkin-server
+
+
 
