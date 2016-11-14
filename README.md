@@ -1,4 +1,4 @@
-# ![](/assets/zipkin.png)简介
+# 简介
 
 _为什么需要分布式追踪系统？_
 
@@ -9,6 +9,11 @@ _分布式追踪系统的技术选型_
 http://zipkin.io/
 
 https://github.com/openzipkin
+
+_zipkin分布式追踪系统概览_
+
+![zipkin](/assets/zipkin.png)
+
 
 
 
