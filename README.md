@@ -6,6 +6,9 @@ _为什么需要分布式追踪系统？_
 
 _分布式追踪系统的技术选型_
 
+http://zipkin.io/
+
+https://github.com/openzipkin
 
 
 
