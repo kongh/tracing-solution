@@ -31,8 +31,13 @@
 
 `> mysql -uroot -Dzipkin < zipkin-storage/mysql/src/main/resources/mysql.sql`
 
+启动zipkin
+
+`> STORAGE_TYPE=mysql MYSQL_USER=root java -jar zipkin.jar`
+
 参考链接：
 https://github.com/openzipkin/zipkin/tree/master/zipkin-server
+https://github.com/openzipkin/zipkin/blob/master/zipkin-server/src/main/resources/zipkin-server.yml
 
 
 
