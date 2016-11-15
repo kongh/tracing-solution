@@ -7,4 +7,9 @@
 
 2.应用关键技术
 
+|项目名称|项目地址|关键应用|备注|
+| :-------- | --------:| :--: | :--: |
+|brave|https://github.com/openzipkin/brave|zipkin java实现 | http、mysql等|
+|zipkin-reporter-java|https://github.com/openzipkin/zipkin-reporter-java| http、kafka传输实现 |
+|zipkin-ui|https://github.com/openzipkin/zipkin-ui|提供另外一种ui形式|暂未应用|
 
